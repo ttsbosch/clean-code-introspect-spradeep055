@@ -1,8 +1,11 @@
-#include<iostream>
-#include<string>
+#include <iostream>
 
-using namespace std;
 class StringCalculator{
-    public:
-    int add(string input);
+public :
+   int add(const std::string& strinput);
+
+private : 
+int checkstringiszero(std::string str);
+int addtwostringnums(std::string str);
+
 };
