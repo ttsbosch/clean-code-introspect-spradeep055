@@ -18,7 +18,7 @@ if( strinput.empty())
 if( strinput.size() == 1 )
 {
   char ch = strinput[0]; // ASCII Val converted
-        if (!(ch >= 48 && ch <= 57)) {
+        if (ch == '0') {
             std::cout << "False" << std::endl;
             return 0;
         }
