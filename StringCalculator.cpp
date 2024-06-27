@@ -25,9 +25,8 @@ if( strinput.empty())
 
   try {
  sum = addtwostringnums(strinput);
-  }
-    catch (const invalid_argument& e) {
-        cerr << "Error: " << e.what() << endl;
+  }catch (const invalid_argument& e) {
+        std::cerr << "Error: " << e.what() << endl;
     }
 
 }
