@@ -6,5 +6,6 @@ public :
 
 private : 
 int checkstringiszero(std::string str);
+int addtwostringnums(std::string str);
 
 };
