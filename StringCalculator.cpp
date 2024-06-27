@@ -7,7 +7,7 @@
 #include <algorithm>
 
 
-int add(std::string strinput)
+int add(const std::string& strinput)
 {
 if( strinput.empty())
 {
