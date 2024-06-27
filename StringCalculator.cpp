@@ -1,4 +1,4 @@
-#include <StringCalculator.h>
+#include "StringCalculator.h"
 
 class StringCalculator{
 
@@ -15,4 +15,5 @@ if(str == "0")
   cout<<Input string is NULL<<endl;
 }
   
+}
 }
