@@ -52,7 +52,7 @@ int StringCalculator::addtwostringnums(std::string str)
     }
     try {
         num1 = stoi(token); // Convert token to integer
-    } catch (const invalid_argument& e) {
+    } catch (const std::invalid_argument& e) {
         throw std::invalid_argument("Invalid input format: invalid number");
     }
     
@@ -62,7 +62,7 @@ int StringCalculator::addtwostringnums(std::string str)
     }
     try {
         num2 = stoi(token); // Convert token to integer
-    } catch (const invalid_argument& e) {
+    } catch (const std::invalid_argument& e) {
         throw std::invalid_argument("Invalid input format: invalid number");
     }
     
