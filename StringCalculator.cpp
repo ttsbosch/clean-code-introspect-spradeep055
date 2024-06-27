@@ -23,9 +23,9 @@ if( strinput.empty())
 
 }
 
-int checkstringiszero(std::string& strinput)
+int checkstringiszero(std::string& str)
 {
-if( strinput.size() == 1 && strinput[0] == '0')
+if( str.size() == 1 && str[0] == '0')
 {
   std::cout << "False" << std::endl;
   return 0;
