@@ -19,7 +19,7 @@ if( strinput.size() == 1 )
 {
   char ch = strinput[0]; // ASCII Val converted
         if (!(ch >= 48 && ch <= 57)) {
-            cout << "False" << endl;
+            std::cout << "False" << endl;
             return 0;
         }
   std::cout<<"Input String is NULL"<<std::endl;
