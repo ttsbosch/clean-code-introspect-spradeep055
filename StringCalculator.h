@@ -1,4 +1,5 @@
-#include "iostream.h"
+#include <iostream>
+
 
 classs StringCalculator{
 public :
