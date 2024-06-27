@@ -23,7 +23,7 @@ if( strinput.empty())
 
 }
 
-int checkstringiszero(std::string& str)
+int checkstringiszero(std::string str)
 {
 if( str.size() == 1 && str[0] == '0')
 {
