@@ -37,15 +37,15 @@ if( str.size() == 1 && str[0] == '0')
 
 int StringCalculator::addtwostringnums(std::string str)
 {
-    stringstream ss(str); // Create a stringstream from input string
-    string token;
+    std::stringstream ss(str); // Create a stringstream from input string
+    std::string token;
     int num1, num2;
     
     getline(ss, token, ','); // Read until comma and store in token
-    num1 = stoi(token); // Convert token to integer
+    num1 = std::stoi(token); // Convert token to integer
     
     getline(ss, token); // Read remaining string (after comma)
-    num2 = stoi(token); // Convert remaining token to integer
+    num2 = std::stoi(token); // Convert remaining token to integer
     
     int sum = num1 + num2; // Compute sum
     
