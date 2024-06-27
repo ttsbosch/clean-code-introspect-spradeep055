@@ -11,7 +11,7 @@ int add(std::string strinput)
 {
 if( strinput.empty() == NULL)
 {
-  cout<<"Input String is NULL"<<endl;
+  std::cout<<"Input String is NULL"<<endl;
   return 0;
 }
   
