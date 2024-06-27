@@ -7,9 +7,12 @@ int add(std::string str)
 {
 if( str == NULL)
 {
-  printf("Input String is NULL");
+  cout<<"Input String is NULL"<<endl;
   return 0;
 }
-
+if(str == "0")
+{
+  cout<<Input string is NULL<<endl;
+}
   
 }
