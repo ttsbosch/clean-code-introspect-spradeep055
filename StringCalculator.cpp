@@ -23,7 +23,12 @@ if( strinput.empty())
      return 0;
   }
 
+  try {
  sum = addtwostringnums(strinput);
+  }
+    catch (const invalid_argument& e) {
+        cerr << "Error: " << e.what() << endl;
+    }
 
 }
 
