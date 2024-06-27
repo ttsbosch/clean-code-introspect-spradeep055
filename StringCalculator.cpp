@@ -41,11 +41,25 @@ int StringCalculator::addtwostringnums(std::string str)
     std::string token;
     int num1, num2;
     
-    getline(ss, token, ','); // Read until comma and store in token
-    num1 = std::stoi(token); // Convert token to integer
+    // Read and convert num1
+    if (!getline(ss, token, ',')) {
+        throw invalid_argument("Invalid input format: missing comma");
+    }
+    try {
+        num1 = stoi(token); // Convert token to integer
+    } catch (const invalid_argument& e) {
+        throw invalid_argument("Invalid input format: invalid number");
+    }
     
-    getline(ss, token); // Read remaining string (after comma)
-    num2 = std::stoi(token); // Convert remaining token to integer
+    // Read and convert num2
+    if (!getline(ss, token)) {
+        throw invalid_argument("Invalid input format: missing second number");
+    }
+    try {
+        num2 = stoi(token); // Convert token to integer
+    } catch (const invalid_argument& e) {
+        throw invalid_argument("Invalid input format: invalid number");
+    }
     
     int sum = num1 + num2; // Compute sum
     
