@@ -9,7 +9,6 @@
 
 int StringCalculator::add(const std::string& strinput)
 {
-  int strlen = stringinput
 if( strinput.empty())
 {
   std::cout<<"Input String is NULL"<<std::endl;
