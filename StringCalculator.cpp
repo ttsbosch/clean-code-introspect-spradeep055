@@ -5,6 +5,7 @@
 #include <stdexcept>
 #include <regex>
 #include <algorithm>
+#include <stdexcept> // for std::invalid_argument
 
 
 int StringCalculator::add(const std::string& strinput)
