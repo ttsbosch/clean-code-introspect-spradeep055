@@ -7,7 +7,7 @@
 #include <algorithm>
 
 
-int add(const std::string& strinput)
+int StringCalculator::add(const std::string& strinput)
 {
 if( strinput.empty())
 {
