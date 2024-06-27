@@ -3,7 +3,7 @@
 class StringCalculator{
 
 
-int add(std::string str))
+int add(std::string str)
 {
 if( str == NULL)
 {
