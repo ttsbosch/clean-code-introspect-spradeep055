@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-classs StringCalculator{
+class StringCalculator{
 public :
    int add(std::string str);
 }
