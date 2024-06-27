@@ -5,6 +5,6 @@ public :
    int add(const std::string& strinput);
 
 private : 
-int checkstringiszero(std::string& strinput)
+int checkstringiszero(std::string& strinput);
 
 };
