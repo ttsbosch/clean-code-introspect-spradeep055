@@ -15,9 +15,9 @@ if( strinput.empty())
   return 0;
 }
 
-if( strinput.length == 1 )
+if( strinput.size() == 1 )
 {
-  int ch = strinput; // ASCII Val converted
+  char ch = strinput[0]; // ASCII Val converted
         if (!(ch >= 48 && ch <= 57)) {
             cout << "False" << endl;
             return 0;
